@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "new-alb-project"
+  description: "nothing alb"
+  annotations:
+    github.com/project-slug: "shujaahmedi2l/new-alb-project"
+    argocd/app-name: "new-alb-project"
+  links:
+    - url: https://new-alb-project.onexidp.com
+      title: Web Application
+      icon: LaunchIcon
+spec:
+  type: service
+  owner: guests
+  lifecycle: experimental
