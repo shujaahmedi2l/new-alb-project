@@ -34,7 +34,7 @@ autoscaling:
 
 alb:
   enabled: true
-  host: "shujaahmedi2l/new-alb-project"
+  host: "new-alb-project"
 
 ingress:
   enabled: false
