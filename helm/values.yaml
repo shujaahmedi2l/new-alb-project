@@ -2,7 +2,7 @@ replicaCount: 3
 
 image:
   repository: 696960135893.dkr.ecr.eu-west-1.amazonaws.com/new-alb-project
-  tag: 445401a336fd37abaa044bde10353077a2ec3898
+  tag: 117a9a8519e031f8d839509f5ec0116fc2da6a1f
   pullPolicy: Always
 
 service:
